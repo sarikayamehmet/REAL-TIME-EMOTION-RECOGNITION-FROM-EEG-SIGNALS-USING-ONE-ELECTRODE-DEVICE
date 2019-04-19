@@ -25,6 +25,7 @@ https://github.com/sarikayamehmet/MindwaveJsonCollector
 
 Or simple use as python code:
 
+```python
 import sys
 import imp
 import math
@@ -57,4 +58,4 @@ if 'eegPower' in eeg:
   lowGamma = eeg['eegPower']['lowGamma']
   highGamma = eeg['eegPower']['highGamma']
   
-
+```
